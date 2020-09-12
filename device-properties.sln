@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "device-properties", "device-properties.vcxproj", "{4061ED2B-2965-4225-8C27-7AC1CBB0A54F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4061ED2B-2965-4225-8C27-7AC1CBB0A54F}.Debug|x64.ActiveCfg = Debug|x64
+		{4061ED2B-2965-4225-8C27-7AC1CBB0A54F}.Debug|x64.Build.0 = Debug|x64
+		{4061ED2B-2965-4225-8C27-7AC1CBB0A54F}.Release|x64.ActiveCfg = Release|x64
+		{4061ED2B-2965-4225-8C27-7AC1CBB0A54F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDC58FBD-2B32-43E0-9BCF-10588D880E48}
+	EndGlobalSection
+EndGlobal
