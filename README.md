@@ -25,9 +25,10 @@ Device copy overlap: yes
 Kernel execution timeout: yes
 ```
 
-See [main.cu] for code.
+See [main.cu] for code, [main.ipynb] for notebook.
 
 [main.cu]: main.cu
+[main.ipynb]: https://colab.research.google.com/drive/1LPA9kjKXCF7O-NdZ9G7tF4QJy_V977Op?usp=sharing
 
 
 ### references
