@@ -18,9 +18,9 @@ int main() {
     printf("Compute capability: %d.%d\n", p.major, p.minor);
     printf("Multiprocessors: %d\n", p.multiProcessorCount);
     printf("Clock rate: %d MHz\n", p.clockRate / 1000);
-    printf("Global memory: %lld MB\n", p.totalGlobalMem / (1024*1024));
-    printf("Constant memory: %lld KB\n", p.totalConstMem / 1024);
-    printf("Shared memory per block: %lld KB\n", p.sharedMemPerBlock / 1024);
+    printf("Global memory: %zd MB\n", p.totalGlobalMem / (1024*1024));
+    printf("Constant memory: %zd KB\n", p.totalConstMem / 1024);
+    printf("Shared memory per block: %zd KB\n", p.sharedMemPerBlock / 1024);
     printf("Registers per block: %d\n", p.regsPerBlock);
     printf("Threads per block: %d (max)\n", p.maxThreadsPerBlock);
     printf("Threads per warp: %d\n", p.warpSize);
