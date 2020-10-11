@@ -9,11 +9,11 @@ and what capabilities the device has.
 ```bash
 # OUTPUT
 COMPUTE DEVICE 0:
-Name: GeForce GTX 1050
-Compute capability: 6.1
-Multiprocessors: 5
-Clock rate: 1493 MHz
-Global memory: 4096 MB
+Name: GeForce RTX 2070 SUPER
+Compute capability: 7.5
+Multiprocessors: 40
+Clock rate: 1770 MHz
+Global memory: 8192 MB
 Constant memory: 64 KB
 Shared memory per block: 48 KB
 Registers per block: 65536
