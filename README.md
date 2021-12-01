@@ -1,4 +1,4 @@
-The properties of a compute device, which can used for knowing how much memory
+The properties of a compute device can used for knowing how much memory
 and what capabilities the device has.
 
 ```c
@@ -7,30 +7,34 @@ and what capabilities the device has.
 ```
 
 ```bash
-# OUTPUT
-COMPUTE DEVICE 0:
-Name: GeForce RTX 2070 SUPER
-Compute capability: 7.5
-Multiprocessors: 40
-Clock rate: 1770 MHz
-Global memory: 8192 MB
-Constant memory: 64 KB
-Shared memory per block: 48 KB
-Registers per block: 65536
-Threads per block: 1024 (max)
-Threads per warp: 32
-Block dimension: 1024x1024x64 (max)
-Grid dimension: 2147483647x65535x65535 (max)
-Device copy overlap: yes
-Kernel execution timeout: yes
+$ nvcc -std=c++17 -Xcompiler -O3 main.cu
+$ ./a.out
+
+# COMPUTE DEVICE 0:
+# Name: NVIDIA Tesla V100-PCIE-16GB
+# Compute capability: 7.0
+# Multiprocessors: 80
+# Clock rate: 1380 MHz
+# Global memory: 16160 MB
+# Constant memory: 64 KB
+# Shared memory per block: 48 KB
+# Registers per block: 65536
+# Threads per block: 1024 (max)
+# Threads per warp: 32
+# Block dimension: 1024x1024x64 (max)
+# Grid dimension: 2147483647x65535x65535 (max)
+# Device copy overlap: yes
+# Kernel execution timeout: no
 ```
 
-See [main.cu] for code, [main.ipynb] for notebook.
+See [main.cu] for code.
 
 [main.cu]: main.cu
-[main.ipynb]: https://colab.research.google.com/drive/1LPA9kjKXCF7O-NdZ9G7tF4QJy_V977Op?usp=sharing
+
+<br>
+<br>
 
 
-### references
+## References
 
-- [CUDA by Example :: Jason Sanders, Edward Kandrot](http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf)
+- [CUDA by Example :: Jason Sanders, Edward Kandrot](https://gist.github.com/wolfram77/72c51e494eaaea1c21a9c4021ad0f320)

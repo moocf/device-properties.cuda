@@ -1,0 +1,15 @@
+COMPUTE DEVICE 0:
+Name: NVIDIA Tesla V100-PCIE-16GB
+Compute capability: 7.0
+Multiprocessors: 80
+Clock rate: 1380 MHz
+Global memory: 16160 MB
+Constant memory: 64 KB
+Shared memory per block: 48 KB
+Registers per block: 65536
+Threads per block: 1024 (max)
+Threads per warp: 32
+Block dimension: 1024x1024x64 (max)
+Grid dimension: 2147483647x65535x65535 (max)
+Device copy overlap: yes
+Kernel execution timeout: no
